@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Midlaj Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+
+
+ 
+    <nav class="floating navbar"> 
+        <div class="max-width">
+            <div class="logo">
+                <a href="#">Portf<span>olio.</span></a>
+            </div>
+
+            <ul class="menu">
+                <li><a href="index.html" target="">Home</a></li>
+                <li><a href="#aboutsection" target="">About Me </a></li>
+                <li><a href="#contactsection" target="">Contact</a></li>
+                
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- home section -->
+
+    <section class="home" id="homesection">
+        <div class="home-container">
+
+
+
+            <div class="name">
+              
+                <h1><span class="hello">Hello,</span> <span id="myname">my name is</span><br>Mohammed Midlaj PA</h1>
+            </div>
+            <div class="typinghome">
+                <h2>
+                    And I'm a <span class="typingeffect"></span>
+                </h2>
+            </div>
+
+            <div class="socialmedia">
+                <ul class="social">
+                  
+                    <li>
+                        <a href="https://web.facebook.com/profile.php?id=100078115718648" target="_blank"><img src="images/facebook.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/midlajxx/" target="_blank"><img src="images/instagram.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mohammed-midlaj-pa-a67b93236//" target="_blank"><img src="images/globe.svg" alt=""></a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- Home section end -->
+    <!-- About section start -->
+
+    <section class="about-section" id="aboutsection">
+        <div class="logo-about">
+            <h1>
+                ABOUT ME
+            </h1>
+        </div>
+
+        <div class="container">
+            <div class="leftabout">
+                <span class="left">
+                    <img src="images/profile.jpg" alt="">
+
+                </span>
+            </div>
+            <div class="rightabout">
+                <h2>
+                    I am <span class="auto-type"></span>
+                </h2>
+                <p id="aboutpara">
+                    Since 2022, I've enjoyed turning complex problems into simple, beautiful and intuitive designs.i enjoy creating beautiful interface designs.I also loves coding and always strives to write elegant and efficient code,whether it is HTML,CSS or jQuery.
+                    
+                    
+                </p>
+
+                <div class="cvbtn">
+                    <a id="cv" href="#">Download CV</a>
+                </div>
+                
+                    
+                        
+                            
+        
+                        </span>
+                    </div>
+
+            </div>
+        </div>
+
+    </section>
+    
+        
+    
+
+    </div>
+
+    <!-- contact section start -->
+    <section class="contact" id="contactsection">
+        <div class="contact-div">
+            <h1 class="contact-heading">
+                Contact
+            </h1>
+        </div>
+
+        <div class="container-contact">
+            <div class="left-contact">
+                <h3>
+                    Send Your Query
+                </h3>
+
+                <form id=gform method="post" action="">
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+                            <label for="Name">Name</label>
+                            <input type="text" placeholder="m" id="Name">
+
+                        </div>
+
+
+                        <div class="input-group">
+                            <label for="Phone">Phone</label>
+                            <input type="text" placeholder="+91" id="Phone">
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+                            <label for="Email">Email</label>
+                            <input type="email" placeholder="mohammedmidlaj635@gmail.com" id="Email">
+
+                        </div>
+
+
+                        <div class="input-group">
+                            <label for="Subject">Subject</label>
+                            <input type="text" placeholder="Product Demo" id="Subject">
+
+                        </div>
+                    </div>
+
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message" rows="5" placeholder="Your Message"></textarea>
+                    <div class="btnsubmit">
+                        
+                    </div>
+
+
+
+                </form>
+
+            </div>
+
+            <div class="right-contact">
+
+
+                <h3>
+                    Reach Me
+                </h3>
+                <table>
+                    <tr>
+                        <td><img src="images/envelope-fill.svg" alt="email"></td>
+                        <td>mohammedmidlaj635@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/telephone-fill.svg" alt=""></td>
+                        <td>+91 9746857428</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/geo-alt-fill.svg" alt=""></td>
+                        <td>shoranur,<br> kerala, india</td>
+                    </tr>
+                </table>
+
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Frontend Web Developer", "Web Designer", "Blogger"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+
+
+        var typed = new Typed(".typingeffect", {
+            strings: ["Frontend Web Developer", "Web Designer", "Blogger"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
